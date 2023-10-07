@@ -1,0 +1,17 @@
+.sobre p{
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    text-align: start;
+    line-height: 1.5;
+    margin-bottom: 7px;
+    text-indent: 35px;
+}
+
+.sobre span{
+    color: #560202;
+}
+
+.sobre{
+    margin-bottom: 30px;
+}
