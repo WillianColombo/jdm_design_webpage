@@ -1,163 +1,28 @@
-#sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px 20px;
-    background-color: #560202;
-    color: #f1f1f1;
+span{
+    font-family: "Indie Flower";
+    color: #560202;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
 }
 
-#sobre p {
-    margin-bottom: 2.5em;
-    max-width: 1000px;
+#vantagens{
+    margin: 0 auto;
 }
 
-#sobre .botao {
-    background-color: #f1f1f1;
-    color: #4d4d4d;
+#vantagens ul li img{
+    max-width: 80px;
+    max-height: 80px;
 }
 
-/*
-SERVIÇOS
-*/
-
-#servicos {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#vantagens ul li p{
+    max-width: 450px;
+    max-height: 200px;
 }
 
-#servicos div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
+#vantagens ul li { 
+    display: inline-block;
+    background-color:#f3f2cd; 
+    text-decoration: none; 
+    vertical-align: top;
 }
-
-/*
-PORTFOLIO
-*/
-
-#portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
-#portfolio h2 {
-    margin-bottom: 20px;
-}
-
-#portfolio img {
-    width: 100%;
-}
-
-/*
-CONTATO
-*/
-
-#contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-
-@media screen and (min-width: 768px) {
-    /*
-    CABEÇALHO
-    */
-    
-    header {
-        height: 600px;
-        height: 60vh;
-        justify-content: center;
-    }
-    
-    /*
-    SOBRE
-    */
-    
-    #sobre {
-        height: 250px;
-        height: 30vh;
-        justify-content: center;
-        min-height: 250px;
-    }
-    
-    /*
-    SERVIÇOS
-    */
-    
-    #servicos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    
-    #servicos h2 {
-        text-align: center;
-        width: 100%;
-    }
-    
-    #servicos div {
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding: 0 10px;
-    }
-    
-    /*
-    PORTFOLIO
-    */
-    
-    #portfolio {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    #portfolio h2 {
-        width: 100%;
-        text-align: center;
-    }
-    
-    #portfolio img {
-        width: 33.3333333333%;
-    }
-    
-    /*
-    CONTATO
-    */
-    
-    #contato {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-    
-    #contato h2,
-    #contato p {
-        width: 100%;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-

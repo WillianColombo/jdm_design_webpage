@@ -16,3 +16,11 @@ p{
     font-family: "Teko";
     font-size: 30px;
 }
+
+hr{
+    color: #560202;
+    height: 7px;
+    width: 70%;
+    background-color: #560202;
+    border-radius: 5px;
+}
