@@ -1,0 +1,26 @@
+address, form{
+    font-family: "Teko";
+    font-size: 30px;
+}
+
+input{
+    margin: 0px 30px 20px 10px;
+}
+
+#mensagem{
+    width: 400px;
+}
+
+.botao{
+    color: #560202;
+    background-color: #f3f2cd;
+    border: 5px solid;
+    border-radius: 7px;
+}
+
+.botao:hover{
+    color:#f3f2cd;
+    background-color: #560202;
+    border: 5px solid;
+    border-radius: 7px;
+}

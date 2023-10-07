@@ -1,0 +1,28 @@
+footer > p{
+    color: #f1f1f1;
+    font-family: "Teko";
+    font-size: 20px;
+    color: #f3f2cd;
+}
+
+footer{
+    background-color:  #373636;       
+    clear: both;
+    padding: 20px;         
+}
+
+.redes_sociais li
+{
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 40px;
+}
+
+#instagram_logo > img{
+    clip-path:circle(40% at 50% 50%); 
+}
+
+#github_logo > img{
+    clip-path:circle(44% at 50% 50%);
+}
