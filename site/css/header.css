@@ -36,13 +36,21 @@ h1{
 }
 
 #capa_inicio{
-    background-image: url('../images/capa_inicio.jpeg');
+    background-image: url('../images/capas_header/capa_inicio.jpeg');
 }
 
 #capa_contato{
-    background-image: url('../images/capa_contato.jpeg');
+    background-image: url('../images/capas_header/capa_contato.jpeg');
 }
 
 #capa_sobre{
-    background-image: url('../images/capa_sobre.jpeg');
+    background-image: url('../images/capas_header/capa_sobre.jpeg');
+}
+
+#capa_portfolio{
+    background-image: url('../images/capas_header/capa_portfolio.jpeg');
+}
+
+#capa_servicos{
+    background-image: url('../images/capas_header/capa_servicos.jpeg');
 }

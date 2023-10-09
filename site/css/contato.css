@@ -16,6 +16,7 @@ input{
     background-color: #f3f2cd;
     border: 5px solid;
     border-radius: 7px;
+    margin: 20px auto 20px auto;
 }
 
 .botao:hover{
