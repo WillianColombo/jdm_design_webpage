@@ -22,6 +22,7 @@ nav > a {
     border-color: #f3f2cd;
     border-radius: 4px;
     background-color: #f3f2cd;
+    transition-duration: 0.5s;
 }
 
 #nav_b{
